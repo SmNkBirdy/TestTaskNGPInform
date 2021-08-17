@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
+    min-height: calc(100vh - 73px);
+}
+
+h1{
+    padding: 0 25px;
+    font-size: 60px;
+}
+
+.description{
+    display: block;
+    background-color: white;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 10px;
+    margin: 0 20px 20px 20px;
+    border-radius: 2px;   
+}
+
+.programByItSelf{
+    padding: 0 20px 20px 20px;
+}
+
+.controlButtons{
+    color: white;
+    border: none;
+    background-color: rgb(99, 42, 146);
+    border-radius: 2px;
+    padding: 10px;
+    margin: 0 5px 0 0;
+}
+
+.controlButtons:hover{
+    background-color: rgb(72, 32, 105);
+}
+
+.controlButtons:focus{
+    background-color: rgb(212, 87, 49);
+}
+
+.textInput{
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 2px;
+}
+.inputsContainer{
+    width: 340px;
+}
+
+.inputsContainer p{
+    display: flex;
+    justify-content:space-between;
+}
+
+#arrayLenghtInput:focus{
+    outline: none;
+}
+
+.arrayElement,.inputsOfArrayNumbers{
+    display: inline-block;
+    background-color: rgb(99, 42, 146);
+    padding: 15px 0;
+    font-size: 15px;
+    width: 47px;
+    margin:10px;
+    text-align: center;
+    font-weight: bolder;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.inputsOfArrayNumbers:hover{
+    background-color: rgb(86, 37, 126);
+}
+
+.inputsOfArrayNumbers:focus{
+    outline: none;
+    background-color: rgb(116, 49, 170);
+}
+
+footer{
+    color: white;
+    background: linear-gradient(90deg, rgb(72, 32, 105) 0%, rgb(212, 87, 49) 100%);
+    padding: 20px 20px 30px 20px;
+    font-size: 20px;
+}
+
+a{
+    color: rgb(212, 87, 49);
+    text-decoration: none;
+}

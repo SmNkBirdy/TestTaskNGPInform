@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article>
+        <h1>Тестовое задание</h1>
+        <p class="description"><b>ЗАДАНИЕ</b>: У вас есть массив с целыми числами, в том числе и отрицательными, вам нужно найти самое большое произведение 3 чисел из этого массива. Задание нужно выполнить максимально эффективно, не забывая про отрицательные числа.</p>
+        <div class="programByItSelf">
+            <div class="inputsContainer">
+                <p>Длинна массива <input type="text" id="arrayLenghtInput" class="textInput" value="5"></p>
+                <p>Минимальное число <input type="text" id="rndMin" class="textInput" value="-10"></p>
+                <p>Максимальное число <input type="text" id="rndMax" class="textInput" value="10"></p>
+            </div>
+            <button class="controlButtons" onclick="clearBlocks()">Сброс</button>
+            <button class="controlButtons" onclick="randomGeneration()">Рандомная генерация</button>
+            <button class="controlButtons" onclick="manualInput()">Ручной ввод</button>
+            <div id="answerDisplay"></div>
+            <div id="arrayDisplay"></div>
+        </div>
+    </article>
+    <footer>Выполнил <a href="https://github.com/SmNkBirdy">Никита Самошкин</a>.</footer>
+    <script src="script.js"></script>
+</body>
+</html>
